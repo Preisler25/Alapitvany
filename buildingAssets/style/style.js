@@ -81,6 +81,13 @@ const styles = StyleSheet.create({
         color: '#eaeaea',
         border: 'none',
     },
+    post_cont: {
+        color: 'red'
+    },
+    bar_top: {
+        height: 10,
+        color: 'green'
+    }
 });
 
 export default styles;

@@ -1,8 +1,8 @@
+import React from 'react';
 import { View, Text } from 'react-native';
 import Post from '../components/post/post'
 import styles from '../style/style'
 
-//alma
 function PostPage() {
     return (
         <View style={styles.container}>
