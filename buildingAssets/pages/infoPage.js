@@ -1,11 +1,12 @@
-import React from 'react';
 import { View, Text } from 'react-native';
+
+import styles from '../style/style';
 
 function InfoPage() {
     return (
-        <View>
+        <View style={styles.container}>
             <Text>InfoPage</Text>
-        </View>
+        </View >
     );
 }
 
