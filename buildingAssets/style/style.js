@@ -6,6 +6,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#1e1e1e',
         paddingVertical: 20,
         paddingHorizontal: 15,
+        display: 'flex',
+        alignItems: 'center',
+        width: '100vw',
     },
     title: {
         fontSize: 60,
@@ -17,6 +20,7 @@ const styles = StyleSheet.create({
     line: {
         height: 1,
         backgroundColor: '#eaeaea3f',
+        width: '90%'
     },
     topic: {
         marginTop: 10,
@@ -72,6 +76,7 @@ const styles = StyleSheet.create({
     center: {
         alignItems: 'center',
         marginBottom: 10,
+        width: '100%'
     },
     selectionBox: {
         height: 50,
@@ -82,11 +87,25 @@ const styles = StyleSheet.create({
         border: 'none',
     },
     post_cont: {
-        color: 'red'
+        marginTop: '3vh',
+        backgroundColor: '#ffffff02',
+        width: '80vw',
+        height: '40vh',
+        display: 'flex',
     },
     bar_top: {
-        height: 10,
-        color: 'green'
+        height: '2vh',
+        backgroundColor: 'green'
+    },
+    text: {
+        color: 'white'
+    },
+    post_title: {
+        fontSize: 30,
+        color: '#eaeaea',
+        marginTop: 10,
+        marginBottom: 10,
+        textAlign: 'center',
     }
 });
 
