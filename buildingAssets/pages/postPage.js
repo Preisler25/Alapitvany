@@ -6,8 +6,8 @@ import styles from '../style/style'
 function PostPage() {
     return (
         <View style={styles.container}>
-            <Text>mainPage</Text>
-            <View>{Post({ title: alma })}</View>
+            <View><Text>mainPage</Text></View>
+            <View>{Post({ title: 'alma' })}</View>
         </View>
     );
 }
