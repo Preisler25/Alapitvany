@@ -106,10 +106,7 @@ const styles = StyleSheet.create({
         marginTop: 10,
         marginBottom: 10,
         textAlign: 'center',
-    }   ,
-    post_cont: {
-        display: 'grid'
-    }
+    },
 });
 
 export default styles;
