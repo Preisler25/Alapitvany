@@ -8,7 +8,10 @@ function PostPage() {
         <View style={styles.container}>
             <Text style={styles.title}>mainPage</Text>
             <View style={styles.center}><View style={styles.line}></View></View>
-            {Post({ title: 'alma', text: 'almas' })}
+            <View style={styles.post_cont}>
+                {Post({ title: 'alma', text: 'almas' })}
+                {Post({ title: 'alma', text: 'almas' })}
+            </View>
         </View>
     );
 }
